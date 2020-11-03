@@ -1,0 +1,37 @@
+label {
+    font-weight: bolder;
+    font-size: larger;
+}
+
+label.operand, label.note {
+    margin-left: 20%;
+}
+
+input.operand, textarea.note {
+    width: 50%;
+    display: block;
+    border: 1px solid blue;
+    margin: auto;
+}
+
+textarea {
+    resize: none;
+}
+
+span {
+    margin: 10px;
+}
+
+@media screen and (max-width: 576px){
+    label.operand, label.note {
+        margin-left: 0;
+    }
+
+    input.operand, textarea.note {
+        width: 90%;
+        display: block;
+        border: 1px solid blue;
+        margin: auto;
+    }
+
+}
